@@ -1,6 +1,6 @@
 const cors = require('cors');
 
-const configuration = ()=> {
+const configureCors = ()=> {
     return cors({
         //origin -> which origins will be allowed to access your API
         origin: (origin, callback) => {
@@ -20,6 +20,13 @@ const configuration = ()=> {
             'Content-Type',
             'Authorization',
             'Accept-Version'
-        ]
+        ],
+        exposedHeaders: ['X-Total_Count', 'Content-Range'],
+        credentials: true,//this will enable support for cookies
+        preflightContinue: false,
+        maxAge: 600, //cache pre flight responses for 10 mins -> avoid sending options requests multiple times
+        optionsSuccessStatus: 204
     })
 }
+
+module.exports = {configureCors};

@@ -1,0 +1,38 @@
+{"level":"info","message":"Identity service is running on port 3001","service":"identity-service","timestamp":"2025-06-19T09:33:22.175Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-06-19T09:33:22.228Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-19T10:03:47.469Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T10:03:47.470Z"}
+{"level":"info","message":"Registration endpoint hit","service":"identity-service","timestamp":"2025-06-19T10:03:47.478Z"}
+{"buffer":{"data":[104,83,224,131,104,73,176,59,4,150,209,105],"type":"Buffer"},"level":"warn","message":"User successfully registered","service":"identity-service","timestamp":"2025-06-19T10:03:47.774Z"}
+{"level":"error","message":"Registration error occured crypto.ramndomBytes is not a function","service":"identity-service","stack":"TypeError: crypto.ramndomBytes is not a function\n    at generateTokens (/home/devops/Documents/project/nodeJS_microservice/project/identity-service/src/utils/generateToken.js:11:33)\n    at registerUser (/home/devops/Documents/project/nodeJS_microservice/project/identity-service/src/controllers/indentity-controller.js:33:53)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-19T10:03:47.782Z"}
+{"level":"info","message":"Identity service is running on port 3001","service":"identity-service","timestamp":"2025-06-19T10:05:16.232Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-06-19T10:05:16.330Z"}
+{"level":"info","message":"Identity service is running on port 3001","service":"identity-service","timestamp":"2025-06-19T10:05:18.360Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-06-19T10:05:18.475Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-19T10:05:20.634Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T10:05:20.645Z"}
+{"level":"info","message":"Registration endpoint hit","service":"identity-service","timestamp":"2025-06-19T10:05:20.703Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-06-19T10:05:20.818Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-19T10:05:32.606Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T10:05:32.606Z"}
+{"level":"info","message":"Registration endpoint hit","service":"identity-service","timestamp":"2025-06-19T10:05:32.610Z"}
+{"buffer":{"data":[104,83,224,236,36,126,7,253,193,22,44,13],"type":"Buffer"},"level":"warn","message":"User successfully registered","service":"identity-service","timestamp":"2025-06-19T10:05:32.861Z"}
+{"level":"error","message":"Registration error occured RefreshToken.reate is not a function","service":"identity-service","stack":"TypeError: RefreshToken.reate is not a function\n    at generateTokens (/home/devops/Documents/project/nodeJS_microservice/project/identity-service/src/utils/generateToken.js:15:24)\n    at registerUser (/home/devops/Documents/project/nodeJS_microservice/project/identity-service/src/controllers/indentity-controller.js:33:53)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-06-19T10:05:32.867Z"}
+{"level":"info","message":"Identity service is running on port 3001","service":"identity-service","timestamp":"2025-06-19T10:05:45.995Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-06-19T10:05:46.028Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-19T10:06:01.429Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T10:06:01.430Z"}
+{"level":"info","message":"Registration endpoint hit","service":"identity-service","timestamp":"2025-06-19T10:06:01.437Z"}
+{"buffer":{"data":[104,83,225,9,159,252,202,19,196,216,163,137],"type":"Buffer"},"level":"warn","message":"User successfully registered","service":"identity-service","timestamp":"2025-06-19T10:06:01.660Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-19T10:06:21.744Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T10:06:21.744Z"}
+{"level":"info","message":"Registration endpoint hit","service":"identity-service","timestamp":"2025-06-19T10:06:21.753Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-06-19T10:06:21.768Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-19T10:06:42.946Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T10:06:42.946Z"}
+{"level":"info","message":"Registration endpoint hit","service":"identity-service","timestamp":"2025-06-19T10:06:42.950Z"}
+{"level":"warn","message":"User already exists","service":"identity-service","timestamp":"2025-06-19T10:06:42.956Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-06-19T10:06:51.076Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-19T10:06:51.077Z"}
+{"level":"info","message":"Registration endpoint hit","service":"identity-service","timestamp":"2025-06-19T10:06:51.079Z"}
+{"0":"\"","1":"p","10":" ","11":"l","12":"e","13":"n","14":"g","15":"t","16":"h","17":" ","18":"m","19":"u","2":"a","20":"s","21":"t","22":" ","23":"b","24":"e","25":" ","26":"a","27":"t","28":" ","29":"l","3":"s","30":"e","31":"a","32":"s","33":"t","34":" ","35":"6","36":" ","37":"c","38":"h","39":"a","4":"s","40":"r","41":"a","42":"c","43":"t","44":"e","45":"r","46":"s","47":" ","48":"l","49":"o","5":"w","50":"n","51":"g","6":"o","7":"r","8":"d","9":"\"","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-06-19T10:06:51.083Z"}

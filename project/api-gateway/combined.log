@@ -11,3 +11,5 @@
 {"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-19T11:28:55.025Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-19T11:28:55.026Z"}
 {"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-06-19T11:28:55.415Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-19T13:10:41.560Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-19T13:10:41.564Z"}

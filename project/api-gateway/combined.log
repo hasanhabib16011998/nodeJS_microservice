@@ -13,3 +13,13 @@
 {"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-06-19T11:28:55.415Z"}
 {"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-19T13:10:41.560Z"}
 {"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-19T13:10:41.564Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-22T05:53:56.899Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-22T05:53:56.904Z"}
+{"level":"info","message":"Received POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-22T05:55:31.873Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-22T05:55:31.874Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-06-22T05:55:32.183Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-22T06:38:15.226Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-22T06:38:15.230Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-22T06:39:00.139Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-22T06:39:00.140Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-06-22T06:39:00.403Z"}

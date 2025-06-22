@@ -76,6 +76,9 @@ app.use(
     })
   );
 
+//setting up proxy for identity service
+
+
 app.use(errorHandler);
 
 app.listen(PORT, ()=> {

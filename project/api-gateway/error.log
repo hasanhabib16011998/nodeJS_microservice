@@ -1,0 +1,2 @@
+{"level":"error","message":"Proxy error: connect ECONNREFUSED 127.0.0.1:3002","service":"api-gateway","timestamp":"2025-06-23T06:48:57.839Z"}
+{"level":"error","message":"Proxy error: connect ECONNREFUSED 127.0.0.1:3002","service":"api-gateway","timestamp":"2025-06-23T07:07:59.983Z"}

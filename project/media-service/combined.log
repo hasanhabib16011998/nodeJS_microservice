@@ -8,3 +8,32 @@
 {"level":"info","message":"File details: name=Screenshot from 2025-06-22 18-47-57.png, type=image/png","service":"media-service","timestamp":"2025-06-23T11:06:12.314Z"}
 {"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-06-23T11:06:12.315Z"}
 {"level":"info","message":"Cloudinary upload successfully. Public Id: - birwnh9psv3agqfzdbty","service":"media-service","timestamp":"2025-06-23T11:06:58.313Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-06-23T12:14:12.510Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-06-23T12:14:12.567Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-06-23T12:14:14.933Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-06-23T12:14:14.994Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-06-23T12:14:43.570Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-06-23T12:14:43.615Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-06-23T12:15:05.470Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-06-23T12:15:05.630Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-06-23T12:24:19.417Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-06-23T12:24:19.479Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-06-23T12:34:58.449Z"}
+{"level":"info","message":"Connected to rabbit mq","service":"media-service","timestamp":"2025-06-23T12:34:58.513Z"}
+{"level":"info","message":"Subscribed to event: post.deleted","service":"media-service","timestamp":"2025-06-23T12:34:58.522Z"}
+{"level":"info","message":"Media service running on port 3003","service":"media-service","timestamp":"2025-06-23T12:34:58.525Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-23T12:40:52.010Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-06-23T12:40:52.012Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-06-23T12:40:52.030Z"}
+{"level":"info","message":"File details: name=smartphone.jpg, type=image/jpeg","service":"media-service","timestamp":"2025-06-23T12:40:52.030Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-06-23T12:40:52.031Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - h9jvoocwyrkghjuxopwn","service":"media-service","timestamp":"2025-06-23T12:40:55.386Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-23T12:56:42.722Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-06-23T12:56:42.722Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-06-23T12:56:42.725Z"}
+{"level":"info","message":"File details: name=zoom camera.jpeg, type=image/jpeg","service":"media-service","timestamp":"2025-06-23T12:56:42.725Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-06-23T12:56:42.726Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - lkkt0hteacvu1l8ybp8f","service":"media-service","timestamp":"2025-06-23T12:56:45.652Z"}
+{"0":"l","1":"k","10":"v","11":"u","12":"1","13":"l","14":"8","15":"y","16":"b","17":"p","18":"8","19":"f","2":"k","3":"t","4":"0","5":"h","6":"t","7":"e","8":"a","9":"c","level":"info","message":"Media deleted successfuly from cloud storage","service":"media-service","timestamp":"2025-06-23T13:02:25.477Z"}
+{"level":"info","message":"Deleted medua 68594f0dc6bdee9fb9ddfff6 associated with this deleted post 6859503cabb7507b3ed46316","service":"media-service","timestamp":"2025-06-23T13:02:25.487Z"}
+{"level":"info","message":"Processed deletion of media for post id 6859503cabb7507b3ed46316","service":"media-service","timestamp":"2025-06-23T13:02:25.487Z"}

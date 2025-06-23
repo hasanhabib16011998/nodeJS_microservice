@@ -308,3 +308,7 @@
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-06-23T07:33:49.299Z"}
 {"level":"info","message":"Received GET request to /api/posts/all-posts","service":"post-service","timestamp":"2025-06-23T07:33:56.577Z"}
 {"level":"info","message":"Request body, [object Object]","service":"post-service","timestamp":"2025-06-23T07:33:56.578Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"post-service","timestamp":"2025-06-23T11:03:00.084Z"}
+{"level":"info","message":"Request body, undefined","service":"post-service","timestamp":"2025-06-23T11:03:00.084Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"post-service","timestamp":"2025-06-23T11:04:36.878Z"}
+{"level":"info","message":"Request body, undefined","service":"post-service","timestamp":"2025-06-23T11:04:36.884Z"}

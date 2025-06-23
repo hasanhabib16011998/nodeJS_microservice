@@ -1,0 +1,10 @@
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-06-23T10:07:26.599Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-06-23T10:07:26.654Z"}
+{"level":"info","message":"Media service is running on port 3003","service":"media-service","timestamp":"2025-06-23T11:03:20.705Z"}
+{"level":"info","message":"Connected to mongodb","service":"media-service","timestamp":"2025-06-23T11:03:20.744Z"}
+{"level":"info","message":"Received POST request to /api/media/upload","service":"media-service","timestamp":"2025-06-23T11:06:12.292Z"}
+{"level":"info","message":"Request body, undefined","service":"media-service","timestamp":"2025-06-23T11:06:12.292Z"}
+{"level":"info","message":"Starting media upload","service":"media-service","timestamp":"2025-06-23T11:06:12.314Z"}
+{"level":"info","message":"File details: name=Screenshot from 2025-06-22 18-47-57.png, type=image/png","service":"media-service","timestamp":"2025-06-23T11:06:12.314Z"}
+{"level":"info","message":"Uploading to cloudinary starting...","service":"media-service","timestamp":"2025-06-23T11:06:12.315Z"}
+{"level":"info","message":"Cloudinary upload successfully. Public Id: - birwnh9psv3agqfzdbty","service":"media-service","timestamp":"2025-06-23T11:06:58.313Z"}

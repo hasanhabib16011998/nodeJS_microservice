@@ -9,6 +9,7 @@ const registerUser = async(req,res) => {
     logger.info('Registration endpoint hit');
 
     try {
+        //validate the schema
         const { error } = validateRegistration(req.body);
         if (error) {
             logger.warn('Validation error', error.details[0].message);

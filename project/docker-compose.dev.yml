@@ -5,7 +5,7 @@ services:
     build: ./api-gateway
     ports:
       - "3000:3000"
-    env_file: ./api-gateway/.env
+    env_file: ./api-gateway/.env.dev
     depends_on:
       - redis
       - rabbitmq
@@ -16,7 +16,7 @@ services:
 
   identity-service:
     build: ./identity-service
-    env_file: ./identity-service/.env
+    env_file: ./identity-service/.env.dev
     depends_on:
       - redis
       - rabbitmq

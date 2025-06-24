@@ -113,3 +113,16 @@
 {"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-23T12:55:32.131Z"}
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-23T12:55:32.131Z"}
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-06-23T12:55:32.133Z"}
+{"level":"info","message":"Identity service is running on port 3001","service":"identity-service","timestamp":"2025-06-23T13:37:18.243Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-06-23T13:37:18.279Z"}
+{"level":"info","message":"Identity service is running on port 3001","service":"identity-service","timestamp":"2025-06-24T10:43:06.068Z"}
+{"level":"info","message":"Connected to mongodb","service":"identity-service","timestamp":"2025-06-24T10:43:06.096Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-24T10:46:11.651Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-24T10:46:11.651Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-06-24T10:46:11.657Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-24T11:13:31.387Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-24T11:13:31.388Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-06-24T11:13:31.391Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-06-24T11:16:11.493Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-06-24T11:16:11.494Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-06-24T11:16:11.496Z"}

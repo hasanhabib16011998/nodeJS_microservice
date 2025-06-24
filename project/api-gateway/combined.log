@@ -352,3 +352,46 @@
 {"level":"info","message":"Received DELETE request to /v1/posts/6859503cabb7507b3ed46316","service":"api-gateway","timestamp":"2025-06-23T13:02:22.576Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-23T13:02:22.577Z"}
 {"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-06-23T13:02:22.611Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-23T13:37:16.349Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-23T13:37:16.356Z"}
+{"level":"info","message":"Post Service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-06-23T13:37:16.357Z"}
+{"level":"info","message":"Media Service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-06-23T13:37:16.358Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-24T10:38:44.828Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-24T10:38:44.832Z"}
+{"level":"info","message":"Post Service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-06-24T10:38:44.832Z"}
+{"level":"info","message":"Media Service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-06-24T10:38:44.833Z"}
+{"level":"info","message":"Media Service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-06-24T10:38:44.833Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-24T10:38:56.356Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-24T10:38:56.363Z"}
+{"level":"info","message":"Post Service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-06-24T10:38:56.364Z"}
+{"level":"info","message":"Media Service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-06-24T10:38:56.365Z"}
+{"level":"info","message":"Search Service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-06-24T10:38:56.365Z"}
+{"level":"info","message":"API Gateway is running on port 3000","service":"api-gateway","timestamp":"2025-06-24T10:42:18.217Z"}
+{"level":"info","message":"Identity Service is running on port http://localhost:3001","service":"api-gateway","timestamp":"2025-06-24T10:42:18.222Z"}
+{"level":"info","message":"Post Service is running on port http://localhost:3002","service":"api-gateway","timestamp":"2025-06-24T10:42:18.223Z"}
+{"level":"info","message":"Media Service is running on port http://localhost:3003","service":"api-gateway","timestamp":"2025-06-24T10:42:18.224Z"}
+{"level":"info","message":"Search Service is running on port http://localhost:3004","service":"api-gateway","timestamp":"2025-06-24T10:42:18.224Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-24T10:46:11.617Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-24T10:46:11.618Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-06-24T10:46:11.871Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-24T10:47:14.308Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-24T10:47:14.309Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"api-gateway","timestamp":"2025-06-24T10:47:14.399Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-24T11:13:31.383Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-24T11:13:31.384Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-06-24T11:13:31.570Z"}
+{"level":"info","message":"Received DELETE request to /v1/posts/685a823243430b7688af2b9a","service":"api-gateway","timestamp":"2025-06-24T11:13:47.216Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-24T11:13:47.216Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-06-24T11:13:47.244Z"}
+{"level":"info","message":"Received POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-24T11:14:35.689Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-24T11:14:35.689Z"}
+{"level":"info","message":"Response received from Post service: 201","service":"api-gateway","timestamp":"2025-06-24T11:14:35.709Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=search","service":"api-gateway","timestamp":"2025-06-24T11:16:04.727Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-24T11:16:04.727Z"}
+{"level":"warn","message":"Access attempt without valid token!","service":"api-gateway","timestamp":"2025-06-24T11:16:04.728Z"}
+{"level":"info","message":"Received POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-24T11:16:11.489Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-24T11:16:11.490Z"}
+{"level":"info","message":"Response received from Identity service: 201","service":"api-gateway","timestamp":"2025-06-24T11:16:11.684Z"}
+{"level":"info","message":"Received GET request to /v1/search/posts?query=search","service":"api-gateway","timestamp":"2025-06-24T11:16:24.396Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-24T11:16:24.396Z"}
+{"level":"info","message":"Response received from Post service: 200","service":"api-gateway","timestamp":"2025-06-24T11:16:24.450Z"}

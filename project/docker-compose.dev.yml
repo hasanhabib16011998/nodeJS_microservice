@@ -27,7 +27,7 @@ services:
 
   post-service:
     build: ./post-service
-    env_file: ./post-service/.env
+    env_file: ./post-service/.env.dev
     depends_on:
       - redis
       - rabbitmq
@@ -39,7 +39,7 @@ services:
 
   media-service:
     build: ./media-service
-    env_file: ./media-service/.env
+    env_file: ./media-service/.env.dev
     depends_on:
       - redis
       - rabbitmq
@@ -51,7 +51,7 @@ services:
 
   search-service:
     build: ./search-service
-    env_file: ./search-service/.env
+    env_file: ./search-service/.env.dev
     depends_on:
       - redis
       - rabbitmq

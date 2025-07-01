@@ -20,7 +20,6 @@ services:
     depends_on:
       - redis
       - rabbitmq
-      - mongodb
     environment:
       - REDIS_URL=redis://redis:6379
       - RABBITMQ_URL=amqp://rabbitmq:5672
@@ -31,7 +30,6 @@ services:
     depends_on:
       - redis
       - rabbitmq
-      - mongodb
     environment:
       - REDIS_URL=redis://redis:6379
       - RABBITMQ_URL=amqp://rabbitmq:5672
@@ -43,7 +41,6 @@ services:
     depends_on:
       - redis
       - rabbitmq
-      - mongodb
     environment:
       - REDIS_URL=redis://redis:6379
       - RABBITMQ_URL=amqp://rabbitmq:5672
@@ -55,20 +52,10 @@ services:
     depends_on:
       - redis
       - rabbitmq
-      - mongodb
     environment:
       - REDIS_URL=redis://redis:6379
       - RABBITMQ_URL=amqp://rabbitmq:5672
 
-  
-  mongodb:
-    image: mongo:6.0
-    ports:
-      - "27017:27017"
-    restart: always
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: example
   
   redis:
     image: redis:alpine

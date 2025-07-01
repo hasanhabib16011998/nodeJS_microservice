@@ -1,5 +1,7 @@
 const mongoose = require('mongoose');
-const argon2 = require('argon2');
+const bcrypt = require('bcrypt'); // or: const bcrypt = require('bcryptjs');
+
+const SALT_ROUNDS = 10;
 
 const userSchema = new mongoose.Schema({
     username: {
@@ -31,16 +33,19 @@ const userSchema = new mongoose.Schema({
 userSchema.pre('save', async function(next){
     if(this.isModified('password')){
         try{
-            this.password = await argon2.hash(this.password)
+            this.password = await bcrypt.hash(this.password, SALT_ROUNDS);
+            next();
         }catch(error){
             return next(error)
         }
+    } else {
+        next();
     }
 });
 
 userSchema.methods.comparePassword = async function(candidatePassword){
     try{
-        return await argon2.verify(this.password, candidatePassword)
+        return await bcrypt.compare(candidatePassword, this.password);
     }catch(error){
         throw error
     }

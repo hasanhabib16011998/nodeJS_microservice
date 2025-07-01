@@ -1,0 +1,112 @@
+.posts-root {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(135deg, #f9fafc 0%, #bae6fd 100%);
+    padding: 3rem 1rem;
+  }
+  
+  .posts-container {
+    background: #fff;
+    border-radius: 1.25rem;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.09);
+    padding: 2.5rem 2rem;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .posts-title {
+    text-align: center;
+    color: #185adb;
+    margin-bottom: 2rem;
+  }
+  
+  .posts-loading,
+  .posts-error,
+  .posts-empty {
+    text-align: center;
+    margin: 2rem 0;
+    color: #444;
+    font-size: 1.2rem;
+  }
+  
+  .posts-error {
+    color: #e63946;
+  }
+  
+  .posts-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .post-item {
+    border-bottom: 1px solid #e8e8e8;
+    padding: 1rem 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-item:last-child {
+    border-bottom: none;
+  }
+  
+  .post-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-user {
+    font-weight: 500;
+  }
+  
+  .post-date {
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  .post-content {
+    font-size: 1.15rem;
+    margin: 0.5rem 0;
+    color: #22223b;
+  }
+  
+  .post-media-ids {
+    margin-top: 0.5rem;
+    font-size: 0.93rem;
+    color: #555;
+  }
+  
+  .posts-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1.2rem;
+  }
+  
+  .pagination-btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    background: #185adb;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background 0.18s;
+  }
+  
+  .pagination-btn:disabled {
+    background: #a6c8ff;
+    cursor: not-allowed;
+  }
+  
+  .pagination-info {
+    font-size: 1rem;
+    color: #185adb;
+  }

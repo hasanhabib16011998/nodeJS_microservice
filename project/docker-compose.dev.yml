@@ -1,6 +1,26 @@
 version: '3.8'
 
 services:
+  frontend:
+    build:
+      context: ./frontend
+      target: build
+      args:
+        VITE_ENV: development
+    volumes:
+      - frontend_dist:/app/dist
+    # This service only builds static files; it doesn't run permanently
+
+  nginx:
+    image: nginx:alpine
+    depends_on:
+      - frontend
+    volumes:
+      - frontend_dist:/usr/share/nginx/html:ro
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "8080:8080"
+
   api-gateway:
     build: ./api-gateway
     ports:
@@ -75,3 +95,5 @@ services:
       timeout: 5s
       retries: 5
 
+volumes:
+  frontend_dist:

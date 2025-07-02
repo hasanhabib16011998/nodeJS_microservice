@@ -53,6 +53,10 @@ function Login() {
     }
   };
 
+  const handleRegisterRedirect = () => {
+    navigate('/register');
+  };
+
   return (
     <div className="login-root">
       <form className="login-form" onSubmit={handleSubmit}>
@@ -83,6 +87,15 @@ function Login() {
         </div>
         <button className="login-btn" type="submit" disabled={loading}>
           {loading ? 'Logging in...' : 'Login'}
+        </button>
+        <button
+          className="login-btn register-btn"
+          type="button"
+          onClick={handleRegisterRedirect}
+          disabled={loading}
+          style={{ marginTop: '10px', backgroundColor: '#eee', color: '#333' }}
+        >
+          Register
         </button>
       </form>
     </div>
